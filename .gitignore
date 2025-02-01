@@ -1,0 +1,16 @@
+.idea
+node_modules
+dist
+logs
+uploads
+
+package-lock.json
+pnpm-lock.yaml
+!.env.project
+!.env.vault
+.env
+.env.production
+.env.development
+
+docker-compose.yml
+Dockerfile

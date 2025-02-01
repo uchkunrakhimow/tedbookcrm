@@ -1,0 +1,13 @@
+stages:
+  - deploy
+
+deploy_to_production:
+  stage: deploy
+  only:
+    - master
+  script:
+    - cd /crm.sphere
+    - sudo git pull origin master
+    - sudo docker-compose build app front
+    #    - sudo docker-compose down
+    - sudo docker-compose up -d

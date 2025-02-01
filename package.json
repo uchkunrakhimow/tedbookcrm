@@ -1,0 +1,20 @@
+{
+  "name": "@tedbookcrm/mono",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --stream -r run dev",
+    "build": "pnpm --stream -r run build",
+    "format": "prettier --ignore-unknown --write .",
+    "docker:compose:up": "docker compose up -d",
+    "docker:compose:down": "docker compose up down",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.4.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

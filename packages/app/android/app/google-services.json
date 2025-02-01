@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "478438619442",
+    "project_id": "tedbook-push",
+    "storage_bucket": "tedbook-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478438619442:android:fb2b015c27eb48c7983f2b",
+        "android_client_info": {
+          "package_name": "uz.tedbook.tedbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7fp3vCE4ulVK7K2Vy-FGyfoopxR-8js4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

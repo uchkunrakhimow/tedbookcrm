@@ -1,0 +1,7 @@
+@tedbookcrm/mono
+
+This monorepo contains the codebase for tedbookcrm, a customer relationship
+management (CRM) platform, separated into two main packages: the api and the
+ui. The platform is designed for managing customer interactions, data, and
+workflows, featuring an Express-based backend and a React-based frontend with
+Vite.
